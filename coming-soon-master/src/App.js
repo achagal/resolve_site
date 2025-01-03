@@ -28,9 +28,9 @@ class App extends React.Component {
             <h1>never skip a beat.</h1>
             <p>We're bringing version control and collaboration to music production. Stay tuned for updates about our launch.</p>
           </div>
-          <a href="mailto:resolvemusicdev@gmail.com?subject=Interested in Resolve" onClick={this.handleContactClick}>
-            <div className="cta">Contact Us</div>
-          </a>
+          <div className="contact-text">
+            contact us at resolvemusicdev@gmail.com
+          </div>
         </div>
         <div className="footer">
           <span>© 2024 resolve. All rights reserved.</span>
